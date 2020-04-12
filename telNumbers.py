@@ -5,8 +5,8 @@ from openpyxl import load_workbook, Workbook
 from os.path import join, abspath
 
 
-class NotAllData(Exception):
-    pass
+# class NotAllData(Exception):
+#     pass
 
 
 data_path = join('.', '1.xlsx')  # текущая директория + имя файла
